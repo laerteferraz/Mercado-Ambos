@@ -1,0 +1,133 @@
+/* --- TOPO --- */
+
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+/* Imagem em formato SMART (responsiva, arredondada e bonita) */
+#imagem1 {
+    width: 600px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-top: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+/* Botões alinhados à direita */
+.menu-botoes {
+    display: flex;
+    gap: 15px; 
+    margin-left: 20px; /* distância extra da imagem */
+}
+
+/* Aparência dos botões */
+.menu-botoes button {
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: #5e87c0;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.menu-botoes button:hover {
+    background-color: #0952b3;
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: center;   /* centraliza as caixas na tela */
+    gap: 20px;                 /* espaço entre as caixas */
+    margin-top: 20px;
+}
+
+.card {
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.card #imagem2 {
+    width: 250px;
+    display: block;
+    margin: 10px auto;
+     border-radius: 12px;
+    object-fit: cover;
+}
+
+.card #imagem3 {
+    width: 250px;
+    height: 120px;
+    display: block;
+    margin: 10px auto;
+     border-radius: 12px;
+    object-fit: cover;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.botoes button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#header-container{
+    background-color: rgb(18, 85, 28);
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 16px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 6px 10px;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

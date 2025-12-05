@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Mercado Ambos</title>
+     
+
+     
+    
+</head>
+<body>
+    
+<div id="header-container"></div>
+
+<img src="Hortifrutigranjeiros.jpg" alt="Hortifrutigranjeiros" id="imagem1">
+
+<!-- CONTAINER DAS DUAS CAIXAS -->
+<div class="cards-container">
+
+    <div class="card">
+        <h2>Contas a Pagar</h2>
+        <img src="Fornecedor.jpeg" alt="Fornecedor" id="imagem2">
+
+        <div class="botoes">
+            <button>Acessar</button>
+            <button>Registrar</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Contas a Receber</h2>
+        <img src="Cliente.jpeg" alt="Cliente" id="imagem3">
+
+        <div class="botoes">
+            <button>Acessar</button>
+            <button>Registrar</button>
+        </div>
+    </div>
+
+</div>
+
+</div>
+<script>
+        document.addEventListener("DOMContentLoaded", async function() {
+        const response = await fetch('header.html');
+        const headerHTML = await response.text();
+        document.getElementById('header-container').innerHTML = headerHTML;
+    });
+    </script>
+</body>
+
+</html>
